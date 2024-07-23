@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* color-scheme: light dark; */
+  background-color: #CAD4BC;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.imghead {
+  background-image: url(./assets/head.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modern {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url('./assets/Modern.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.minimal {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url('./assets/Minimal.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.luxury {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url('./assets/Luxury.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.a1 {
+  background-image: url('./assets/furnitures/clocks/clock1.png');
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.a2 {
+  background-image: url('./assets/furnitures/clocks/clock2.png');
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.l1 {
+  background-image: url('./assets/furnitures/lamp/lamp1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.l2 {
+  background-image: url('./assets/furnitures/lamp/lamp2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.c1 {
+  background-image: url('./assets/furnitures/coffeetable/table1.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.c2 {
+  background-image: url('./assets/furnitures/coffeetable/table2.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.s1 {
+  background-image: url('./assets/furnitures/sofa/sofa1.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.s2 {
+  background-image: url('./assets/furnitures/sofa/sofa2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
